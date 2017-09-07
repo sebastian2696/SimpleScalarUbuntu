@@ -17,7 +17,9 @@ I recommend usign the 32 bit.
 download the [simplesim](http://www.simplescalar.com/agreement.php3?simplesim-3v0e.tgz)
 and move it to the /build folder
  
-chmod +x installscript_32.sh or chmod +x installscript_64.sh and execute 
+chmod +x installscript_32.sh or chmod +x installscript_64.sh and execute
+one of the 2 scripts
+ 
 The Global Variables need to be defaulted source ~/.bashrc
 
 This is crosscompiler necessary to run an application on the SimpleScalar
