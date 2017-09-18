@@ -4,16 +4,13 @@ For more information [SimpleScalar](http://www.simplescalar.com/)
 
 Simplescalar is pretty old so it has not being maintaned at all. This script allows it to be used for Educational purposes mainly.
 
-The installation differs depending on your system : 32-bit / 64-bit.
-
-To run just execute the correct script based on your system. Futhermore you might need to chmod the file. 
+To run just execute the script. Futhermore you might need to chmod the file. 
 
 You might need to download the SimpleScalar simulator from the original website and save the .tar file inside the build folder.
 
 ## Instructions:
 
 Use uname -i to determine the architecture.
-I recommend using the 32 bit.
 
 • Download the [simplesim-3v0e.tgz](http://www.simplescalar.com/agreement.php3?simplesim-3v0e.tgz) and move it to the /build folder
  
