@@ -19,7 +19,7 @@ Download the [simplesim-3v0e.tgz](http://www.simplescalar.com/agreement.php3?sim
  
 chmod +x installscript_32.sh or chmod +x installscript_64.sh and execute one of the 2 scripts
  
-The Global Variables need to be defaulted: source ~/.bashrc
+The Global Variables need to be defaulted: **source ~/.bashrc**
 
 This is a crosscompiler necessary to run an application on the SimpleScalar simulator: sslittle-na-sstrix-gcc
 
