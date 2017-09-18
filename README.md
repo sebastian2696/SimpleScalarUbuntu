@@ -10,7 +10,7 @@ To run just execute the correct script based on your system. Futhermore you migh
 
 You might need to download the SimpleScalar simulator from the original website and save the .tar file inside the build folder.
 
-##Instructions:
+## Instructions:
 
 Use uname -i to determine the architecture.
 I recommend using the 32 bit.
