@@ -23,7 +23,7 @@ I recommend using the 32 bit.
 
 ## Test:
 
-This is a crosscompiler necessary to run an application on the SimpleScalar simulator: sslittle-na-sstrix-gcc
+This contains a crosscompiler necessary to run an application on the SimpleScalar simulator: sslittle-na-sstrix-gcc
 
 Example is located inside the Test folder.
 
