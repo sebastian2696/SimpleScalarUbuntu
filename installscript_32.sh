@@ -1,5 +1,6 @@
 #!/bin/sh
 set -e # To stop as soon as an error occured
+echo -e "Getting Dependencies"
 sudo apt-get install -y bison flex gzip gcc-multilib libz1 libncurses5 libbz2-1.0 make
 
 export IDIR=$PWD"/build"
@@ -12,6 +13,7 @@ then
     exit 1
 fi
 
+echo -e "Getting Simplesim Add-ons "
 wget http://www.simplescalar.com/downloads/simpletools-2v0.tgz
 wget http://www.simplescalar.com/downloads/simpleutils-2v0.tgz
 
@@ -19,6 +21,8 @@ gunzip  *.tgz
 tar -xf simpletools-*.tar
 tar -xf simpleutils-*.tar
 tar -xf simplesim-*.tar
+
+echo -e "Installing"
 
 cd binutils-*
 
@@ -94,7 +98,7 @@ echo 'PATH='$IDIR'/bin:$PATH' >> ~/.bashrc
 cd ../simplesim-*
 echo 'PATH='$IDIR':$PATH' >> ~/.bashrc
 
-echo "Praise B-Jesus!!!!"
+echo "Praise B-Jesus!!!!\n\n\n"
 echo "Execute: source ~/.bashrc to reset global variables"
 echo "Test\n Compile: sslittle-na-sstrix-gcc -x c++ main.c -o main inside the example folder"
 echo "Execution: ../build/simplesim-3.0/sim-safe main"
