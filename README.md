@@ -10,7 +10,7 @@ To run just execute the correct script based on your system. Futhermore you migh
 
 You might need to download the SimpleScalar simulator from the original website and save the .tar file inside the build folder.
 
-#Instructions:
+##Instructions:
 
 Use uname -i to determine the architecture.
 I recommend using the 32 bit.
@@ -21,7 +21,7 @@ I recommend using the 32 bit.
  
 • The Global Variables need to be defaulted: **source ~/.bashrc**
 
-#Test:
+## Test:
 
 This is a crosscompiler necessary to run an application on the SimpleScalar simulator: sslittle-na-sstrix-gcc
 
@@ -33,4 +33,4 @@ Example is located inside the Test folder.
 
 • The SimpleSim Simulator is located: ../build/simplesim-3.0/
 
-• To test the simulator in the simplesim-3.0 directory: ./sim-safe tests-alpha/bin/test-math
+• To test the simulator in the simplesim-3.0 directory: ./sim-safe tests-alpha/bin/test-math or ./sim-safe tests-pisa/bin.little/test-math
